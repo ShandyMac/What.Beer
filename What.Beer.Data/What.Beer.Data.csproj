@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.1" />
+    <PackageReference Include="MongoDB.Driver" Version="2.10.1" />
+    <PackageReference Include="System.Collections.Concurrent" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\What.Beer.Commands\What.Beer.Commands.csproj" />
+    <ProjectReference Include="..\What.Beer.Common\What.Beer.Common.csproj" />
+    <ProjectReference Include="..\What.Beer.Queries\What.Beer.Queries.csproj" />
+  </ItemGroup>
+
+</Project>
