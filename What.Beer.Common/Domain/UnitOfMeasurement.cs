@@ -1,6 +1,9 @@
 ﻿namespace What.Beer.Common.Domain
 {
-    public enum  UnitOfMeasurement
+    /// <summary>
+    /// The <see cref="UnitOfMeasurement"/>
+    /// </summary>
+    public enum UnitOfMeasurement
     {
         Millilitres
     }
